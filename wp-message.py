@@ -1,6 +1,7 @@
 """
 Tanım   :Excel'de bulunan birden çok kişinin telefon numarası çekilip onlara birer
          dakika arayla mesaj gönderebilmek üzere tasarlandı. 
+Ortam   :Windows10 işletim sisteminde Visual Studio Code ile geliştirildi.
 Uyarı   :Her telefon numarası için whatsapp sekmesini kapatmalısınız ki ötekine geçebilsin :(
 """
 
