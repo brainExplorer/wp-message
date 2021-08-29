@@ -18,4 +18,4 @@ print(df["Numara"])
 ct = 45
 for n in df["Numara"]:
     kit.sendwhatmsg(str(n), "ikinci toplu mesaj denemesi :) ", 18, ct)
-    ct = 1
+    ct += 1
