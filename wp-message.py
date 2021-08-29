@@ -14,7 +14,7 @@ df = pd.read_excel(excel_file)
 # Excel dosyamızda ilk iki sütun Ad ve Numara başlıklarıyla kullanılıyor
 print(df["Numara"])
 
-# Bu kodu denediğim sıralarda saat 18:45 ti. Dögü ile beraber 1'er dakikalık arayla sonraki kişiye geçecek
+# Bu kodu denediğim sıralarda saat 18:45 ti. Döngü ile beraber 1'er dakikalık arayla sonraki kişiye geçecek
 ct = 45
 for n in df["Numara"]:
     kit.sendwhatmsg(str(n), "ikinci toplu mesaj denemesi :) ", 18, ct)
