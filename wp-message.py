@@ -12,7 +12,6 @@ excel_file = "C:/Users/Home-N/Desktop/denek.xls"
 df = pd.read_excel(excel_file)
 
 # Excel dosyamızda ilk iki sütun Ad ve Numara başlıklarıyla kullanılıyor
-df = df[df["Numara"] != "n/a"]
 print(df["Numara"])
 
 # Bu kodu denediğim sıralarda saat 18:45 ti. Dögü ile beraber 1'er dakikalık arayla sonraki kişiye geçecek
