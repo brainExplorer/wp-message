@@ -13,6 +13,8 @@ excel_file = "C:/Users/Home-N/Desktop/denek.xls"
 df = pd.read_excel(excel_file)
 
 # Excel dosyamızda ilk iki sütun Ad ve Numara başlıklarıyla kullanılıyor
+
+#Konsolda aldığımız verileri görüntülemek için oluşturduk, silebilirsiniz koda bir etkisi yok.
 print(df["Numara"])
 
 # Bu kodu denediğim sıralarda saat 18:45 ti. Döngü ile beraber 1'er dakikalık arayla sonraki kişiye geçecek
